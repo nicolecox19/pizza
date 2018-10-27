@@ -54,6 +54,16 @@ body {
   width: 900px;
   padding: 40px;
 }
-img {
-  display: none;
-}
+/*  trying to make image smaller//
+/* .img {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline overline;
+  font-size: bold;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  border-radius: 25px;
+  width: 900px;
+  padding: 40px;
+} */
