@@ -2,6 +2,18 @@
 #result {
   display: none;
 }
+p {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline overline;
+  font-size: bold;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  border-radius: 25px;
+  width: 900px;
+  padding: 40px;
+}
 
 h1 {
   text-align: center;
@@ -34,12 +46,14 @@ body {
 }
 
 .container {
-
   background: #FAEBD7;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 10%;
   border-radius: 25px;
-  width: 750px;
+  width: 900px;
   padding: 40px;
+}
+img {
+  display: none;
 }
