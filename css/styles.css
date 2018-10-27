@@ -1,0 +1,45 @@
+
+#result {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+h2, h3, h4 {
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+
+}
+
+.checkbox label {
+  padding-right: 15px;
+  padding-bottom: 4px;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+body {
+  color: black;
+  background-size: cover;
+}
+
+.container {
+
+  background: #FAEBD7;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  border-radius: 25px;
+  width: 750px;
+  padding: 40px;
+}
