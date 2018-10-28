@@ -1,7 +1,7 @@
-
 #result {
   display: none;
 }
+
 p {
   text-align: center;
   font-size: 60px;
@@ -19,6 +19,7 @@ h1 {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 30px;
+  text-decoration: underline overline;
 }
 
 h2, h3, h4 {
@@ -28,7 +29,6 @@ h2, h3, h4 {
 h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 0.08em;
-
 }
 
 .checkbox label {
@@ -43,27 +43,34 @@ h1, h2, h3, h4 {
 body {
   color: black;
   background-size: cover;
+  background-color: #e5d5bb;
 }
 
 .container {
-  background: #FAEBD7;
-  margin-top: 5%;
+  margin-top: 1%;
   margin-bottom: 5%;
   margin-left: 10%;
-  border-radius: 25px;
-  width: 900px;
-  padding: 40px;
+  border-radius: 20px;
+  width: 950px;
+  padding: 50px;
+  background: #a66e00;
 }
-/*  trying to make image smaller//
-/* .img {
-  text-align: center;
-  font-size: 60px;
-  text-decoration: underline overline;
-  font-size: bold;
-  margin-top: 5%;
-  margin-bottom: 5%;
+
+.container1 {
+  background-position: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
   margin-left: 10%;
-  border-radius: 25px;
-  width: 900px;
-  padding: 40px;
-} */
+  margin-right: 10%;
+  border-radius: 10px;
+  width: 1025px;
+  padding-left: 10px;
+  padding: 10px;
+  background: #e5d5bb;
+}
+
+/* resize images */
+.container1 img {
+  width: 5%;
+  height: 50px;
+}
