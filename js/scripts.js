@@ -7,7 +7,7 @@ function Pizza(quantity, pizzaSize) {
 };
 
 Pizza.prototype.calculatePrice = function() {
-  var totalPrice = 2 + (this.veggieTopping.length * 1)
+  var totalPrice = 2 + (this.veggieTopping.length * 1) + (this.meatTopping.length * 2)
 
   if (this.pizzaSize === "small") {
     return totalPrice * this.quantity;
@@ -27,10 +27,11 @@ $(document).ready(function() {
   $("form#order-form").submit(function(event) {
     var quantity = $("input#quantity").val();
     var pizzaSize = $("select#size").val();
+    // var pizzaToppings = $("pizza#Toppings")
 
     var newPizza = new Pizza(quantity, pizzaSize);
 
-    // debugger;
+    debugger;
 
     var veggieTopping = $("input.veg:checkbox:checked").each(function() {
       newPizza.veggieTopping.push(veggieTopping);
